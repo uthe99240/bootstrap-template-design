@@ -1,0 +1,134 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* color: white; */
+    /* text-align: center; */
+}
+
+.bg-light{
+    background-color: #2C3E50 !important;
+}
+
+
+
+.navbar-light .navbar-toggler{
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.navbar-toggler{
+    padding: 12px;
+}
+
+.navbar-brand, .nav-link{
+    color: #fff !important;
+}
+
+header{
+    padding-top: 100px;
+    background-color: #1ABC9C;
+}
+
+.imageAvatar{
+    width: 220px;
+}
+
+.hr1{
+    height: 3px;
+    width: 90px;
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.hr2{
+    height: 3px;
+    width: 90px;
+    background-color: black;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.container{
+    padding: 80px;
+}
+
+.portfolio-card{
+    padding: 0 90px;
+}
+
+.bgClr{
+    background-color: #1ABC9C;
+}
+
+.paragraph{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+ul li a:hover{
+    color:#1ABC9C !important;
+}
+
+#toTop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.fContainer{
+    padding: 60px;
+}
+
+.mediaIcon{
+    border: 2px solid white;
+}
+
+.mediaIcon:hover{
+    background-color: white;
+    color: black;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.text-danger{
+    color: orangered !important;
+}
+
+
+@media (min-width : 768px) {
+    .navbar{
+        padding: 25px 80px;
+    }
+
+    .navbar-brand {
+        font-size:x-large !important;
+    }
+    
+    .nav-link{
+        font-size:80% !important;
+    }
+}
+
+
+@media (min-width : 992px) {
+    .navbar{
+        padding: 25px 100px;
+    }
+
+    .navbar-brand {
+        font-size:x-large !important;
+    }
+    
+    .nav-link{
+        font-size:80% !important;
+    }
+}
+        
+    
